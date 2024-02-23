@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	/* 연산자 : + - * / % */
+	let a = 10 + 10;
+	console.log('더하기 = ', a, typeof a);
+	a = "문자열";
+	console.log('a의 자료형 ', a, typeof a);
+	const pi = 3.141592;
+	console.log("pi = ", pi, typeof pi);
+	
+	// 정밀한 계산에서의 실수연산은 정확하지가 않다.
+	// 정확한 계산을 하려면 정수로 변환한 후에 연산을 해야 한다.
+	let b = 0.1 + 0.2;
+	console.log("실수의 연산 결과 = ", b);
+	
+	// 문자와 숫자의 연산(더하기)은 연결연산이 된다.
+	let str = "문자열";
+	let num = 10;
+	let result = str + 10;
+	console.log("문자열 더하기 연산 = ", result, typeof result );
+	
+	str = "10";
+	num = 10;
+	result = num + str + num;
+	console.log("문자열 더하기 연산 = ", result, typeof result );
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>
