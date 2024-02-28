@@ -89,7 +89,7 @@ main {
 
   background-color: white;
   font-size: 1.3rem;
-  border-radius: 50%;
+  border-radius: 20%;
   color: #0a0908;
 
   box-shadow: rgba(0, 0, 0, 0.02) 1px 5px 3px 1px,
@@ -103,27 +103,15 @@ main {
   background-color: #e6e6e6;
 }
 
-/* 키 예외 */
-.key--clear {
-  background-color: #d1281b;
-  color: black;
-}
-.key--clear:hover {
-  background-color: #f91504;
-}
 
-.key--equals {
-  background-color: #f2b90c;
-  color: black;
-}
-.key--equals:hover {
-  background-color: #ffd500;
-}
 
-.key--function {
-  color: #477934;
-}
-.key--function:hover {
-  background-color: #477934;
-  color: white;
-}
+
+
+
+
+
+
+
+
+
+
